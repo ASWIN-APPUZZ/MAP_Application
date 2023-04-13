@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="20dp">
+
+    <Button
+        android:id="@+id/btn_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Map"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/btn_get_cur_loc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Current Location"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_location"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="10dp"
+        android:text="Location"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_loc_lisner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Location Listner"
+        android:layout_margin="10dp"/>
+</LinearLayout>
